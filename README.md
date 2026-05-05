@@ -1,4 +1,4 @@
-# Portfolio personnel — Belkiss Tiss
+# Portfolio personnel - Belkiss Tiss
 
 Ce projet est un **portfolio personnel développé en React** afin de présenter mon profil, mon parcours, mes compétences et mes projets.
 
