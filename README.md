@@ -1,22 +1,48 @@
-# Portfolio de Belkiss Tiss
+# Portfolio personnel — Belkiss Tiss
 
-Un portfolio React simple et moderne construit avec Vite, destiné à présenter des compétences, des projets et un profil pour une candidature en alternance en master Génie logiciel / MIAGE.
+Ce projet est un **portfolio personnel développé en React** afin de présenter mon profil, mon parcours, mes compétences et mes projets.
 
-## Installation
+L’objectif est de proposer une interface claire et élégante, pensée pour être facilement consultée dans le cadre d’une recherche d’alternance en **génie logiciel / MIAGE**.
 
-1. Installer les dépendances :
+## Contenu du portfolio
+
+Le site contient plusieurs sections :
+
+- une présentation rapide
+- mes coordonnées
+- mon CV
+- mes compétences principales
+- une sélection de projets universitaires et personnels
+- une section sur mes centres d’intérêt
+
+## Technologies utilisées
+
+- **React**
+- **Vite**
+- **JavaScript**
+- **CSS**
+
+## Lancer le projet en local
+
+Installer les dépendances :
 
 ```bash
 npm install
 ```
 
-2. Lancer le serveur de développement :
+Lancer le serveur de développement :
 
 ```bash
 npm run dev
 ```
 
-3. Construire la version de production :
+Puis ouvrir dans le navigateur l’adresse affichée dans le terminal, généralement :
+
+```bash
+http://localhost:5173/
+```
+
+## Construire la version de production
 
 ```bash
 npm run build
@@ -24,23 +50,20 @@ npm run build
 
 ## Structure du projet
 
-- `index.html` — point d’entrée de l’application.
-- `package.json` — dépendances et scripts.
-- `vite.config.js` — configuration Vite.
-- `src/` — code source React.
-  - `App.jsx` — composant principal.
-  - `main.jsx` — point d’entrée React.
-  - `components/` — composants UI.
-  - `data/` — données de profil et projets.
-  - `index.css` — styles globaux.
-- `public/` — fichiers publics accessibles directement.
+- `src/` : composants, données et structure principale du site
+- `public/` : fichiers statiques (CV, images, README de projets, etc.)
+- `package.json` : dépendances et scripts
+- `vite.config.js` : configuration Vite
 
-## À propos
+## Objectif du projet
 
-Ce dépôt contient un portfolio personnel avec une mise en page sobre et responsive. Il est conçu pour être facile à maintenir et à adapter pour une candidature professionnelle.
+Ce portfolio a été conçu pour :
 
-## Bonnes pratiques
+- mettre en valeur mon parcours et mes compétences
+- centraliser mes projets dans une interface unique
+- permettre un accès direct à mon CV et à mes dépôts GitHub
+- servir de support lors de candidatures en alternance
 
-- Ne pas versionner `node_modules/`.
-- Ne pas versionner les fichiers de build (`dist/`).
-- Garder le dépôt centré sur le code source, les actifs et la configuration du projet.
+## Auteure
+
+**Belkiss Tiss**
